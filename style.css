@@ -1,0 +1,58 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../Site\ 1/img/fundo.jpg');  
+    background-size: auto 120vh;
+    font-family: Arial, Helvetica, sans-serif;   
+    height: 100vh;
+}
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 560px;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.rede {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    transition: all 0.4s ease-out;
+}
+
+.rede :hover {
+    cursor: pointer;
+    transform: translateY(-20px);
+    box-shadow: 4px 30px 16px 0px rgba(50,50,50, 0.45);
+}
+
+.icone {
+    align-items: center;
+    height: 40px;
+}
