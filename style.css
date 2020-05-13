@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('../Site\ 1/img/fundo.jpg');  
+    background-image: url('./img/fundo.jpg');  
     background-size: auto 120vh;
     font-family: Arial, Helvetica, sans-serif;   
     height: 100vh;
